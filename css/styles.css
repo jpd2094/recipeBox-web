@@ -278,103 +278,12 @@ h1, h2, h3, h4 {
   padding: 44px 16px 16px;
 }
 
-/* --- Recipe Card Inside iPhone --- */
-.recipe-card-preview {
-  font-family: 'Inter', sans-serif;
-}
-
-.rcp-image {
+/* --- Screenshot inside iPhone --- */
+.screen-img {
   width: 100%;
-  height: 120px;
-  background: linear-gradient(135deg, #E7DED4 0%, #d4c9b8 50%, #E7DED4 100%);
-  border-radius: 12px;
-  margin-bottom: 12px;
-  position: relative;
-  overflow: hidden;
-}
-
-.rcp-image::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background:
-    radial-gradient(ellipse at 30% 60%, rgba(199, 107, 79, 0.15) 0%, transparent 60%),
-    radial-gradient(ellipse at 70% 40%, rgba(212, 131, 107, 0.1) 0%, transparent 50%);
-}
-
-.rcp-title {
-  font-family: 'DM Serif Display', Georgia, serif;
-  font-size: 16px;
-  font-weight: 400;
-  margin-bottom: 6px;
-  color: #2E2A26;
-}
-
-.rcp-source {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 10px;
-  color: #6F6A63;
-  margin-bottom: 10px;
-}
-
-.rcp-dot {
-  width: 6px;
-  height: 6px;
-  background: #C76B4F;
-  border-radius: 50%;
-}
-
-.rcp-meta {
-  display: flex;
-  background: #F8F4EE;
-  border: 1px solid #E7DED4;
-  border-radius: 10px;
-  padding: 8px 4px;
-  margin-bottom: 12px;
-}
-
-.rcp-meta-item {
-  flex: 1;
-  text-align: center;
-}
-
-.rcp-meta-icon { font-size: 10px; }
-.rcp-meta-label { font-size: 7px; text-transform: uppercase; color: #6F6A63; letter-spacing: 0.3px; }
-.rcp-meta-value { font-family: 'DM Serif Display', serif; font-size: 11px; color: #2E2A26; }
-
-.rcp-section h4 {
-  font-family: 'DM Serif Display', Georgia, serif;
-  font-size: 12px;
-  font-weight: 400;
-  padding-bottom: 6px;
-  border-bottom: 1px solid #E7DED4;
-  margin-bottom: 8px;
-  color: #2E2A26;
-}
-
-.rcp-ingredients {
-  list-style: none;
-}
-
-.rcp-ingredients li {
-  font-size: 10px;
-  line-height: 1.6;
-  padding-left: 14px;
-  position: relative;
-  color: #2E2A26;
-}
-
-.rcp-ingredients li::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 6px;
-  width: 5px;
-  height: 5px;
-  background: #C76B4F;
-  border-radius: 50%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
 }
 
 
